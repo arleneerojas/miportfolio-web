@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: rgb(2, 7, 10);
+    padding-top: 70px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:rgb(253, 253, 253);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+ }
+ .menu-item{
+      color: #333;
+      text-decoration: none;
+      padding: 10px;
+      display: inline-block;
+
+ }
+ .menu-item:hover {
+    background-color: #ddd;
+    transition: all 0.4s ease-in-out;
+  }
+  header{
+    background-color:#725285;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+  }
+  section{
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+
+  }
+  #p-acercade-mi {
+    text-align: justify;
+  }
+  #habilidades ul {
+    list-style: none;
+    padding: 0;
+  }
+  #habilidades ul li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-right: 10px;
+    border-color: #8f6aa5;
+
+  }
+  #experiencia ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+   
+
+  }
+  #experiencia  li {
+    margin-bottom: 10px;
+     
+  }
+  #expe-instituciones{
+    border: 2px solid #8f6aa5;
+    border-radius: 10px;
+    border-color: #8f6aa5;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+      
+  }
+  #proyectos ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+#proyectos ul li a {
+    text-decoration: none;
+    color: #8f6aa5;
+    
+}
+#proyectos ul li a:hover{
+    text-decoration: underline;
+}
+#sociales{
+    list-style: none;
+    padding: 0%;
+    margin-top: 10px;
+}
+#sociaoles li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+.fa{
+    color: #8f6aa5;
+    text-decoration: none;
+    padding: 5px;
+
+}
