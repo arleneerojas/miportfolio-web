@@ -1,10 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    background-color: #bf7cc6;
+
+    background-image: url(https://media.istockphoto.com/id/1478776181/es/v%C3%ADdeo/signos-de-interrogaci%C3%B3n-de-ne%C3%B3n-rosa-volador-sobre-un-fondo-negro-animaci%C3%B3n-3d-signo-de.jpg?s=640x640&k=20&c=DOMNVwuM2QONVQg0qCv7TWZwLOajf6rKo_Ebzj9L1JI=);
+    
   }
      
   h1 {
     text-align: center;
     margin-top: 50px;
+    color: #fff;
      }
      
   #guess-input {
@@ -49,5 +54,6 @@ body {
      
   .input-area{
       margin: 30px;
+  
   }
   
